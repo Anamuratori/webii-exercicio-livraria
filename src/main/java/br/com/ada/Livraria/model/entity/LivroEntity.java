@@ -12,7 +12,7 @@ public class LivroEntity {
     private Integer id;
     @Column(name = "titulo", nullable = false, unique = true)
     private String titulo;
-    @Column(name = "titulo", nullable = false)
+    @Column(name = "genero", nullable = false)
     private String genero;
 
 }

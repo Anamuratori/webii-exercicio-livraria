@@ -12,7 +12,6 @@ public class LivroDTO {
     @NotBlank(message = "O titulo não pode ser nulo ou vazio.")
     private String titulo;
     @Size(max = 60, message = "Tamanho acima do permitido. Máximo de 60 caracteres.")
-
     @NotBlank(message = "O gênero não pode ser nulo ou vazio.")
     private String genero;
 
